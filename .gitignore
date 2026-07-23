@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+# generator scratch output (demo.html is the committed artifact)
+output/dashboard/index.html
+# any local status / secrets — never commit
+data/role-status.json
+data/applied-index.json
+**/.token.json
+.env

@@ -1,0 +1,14 @@
+{
+  "id": "outlook-applied",
+  "name": "Outlook applied-status (read-only)",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "description": "Read-only Hotmail/Outlook check: detect application-confirmation emails via Microsoft Graph and record which companies/roles you've already applied to (with the email date) into data/applied-index.json for the scan dashboard. Never sends, deletes, or reads bodies.",
+  "hooks": ["ingest"],
+  "requiredEnv": ["MSGRAPH_CLIENT_ID", "MSGRAPH_REFRESH_TOKEN"],
+  "optionalEnv": ["MSGRAPH_CLIENT_SECRET"],
+  "allowedHosts": ["login.microsoftonline.com", "graph.microsoft.com"],
+  "skill": "skill.md",
+  "humanInTheLoop": true,
+  "homepage": "https://learn.microsoft.com/graph/api/user-list-messages"
+}
