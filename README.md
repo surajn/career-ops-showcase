@@ -5,8 +5,8 @@ multi-agent job-search system with the features my own Engineering-Director / EM
 search needed — an operational dashboard, better scanner coverage, and a
 least-privilege email design — **without forking it or breaking its upgrade path**.
 
-**▶ [Live demo](https://surajn.github.io/career-ops-extensions/demo.html)**
-· **[Case study](https://surajn.github.io/career-ops-extensions/)**
+**▶ [Live demo](https://surajn.github.io/career-ops-showcase/demo.html)**
+· **[Case study](https://surajn.github.io/career-ops-showcase/)**
 
 > **Attribution.** The foundation is [career-ops](https://github.com/santifer/career-ops)
 > (MIT, © Santiago Fernández de Valderrama) — a system I did **not** write. This repo
@@ -41,9 +41,9 @@ Open the generated HTML in any browser — no server, no build step, no tokens. 
 committed `demo.html` is that output with a "sample data" banner added.)
 
 ## Publish the public page (GitHub Pages)
-1. Create a public repo named `career-ops-extensions`, push this folder.
+1. Create a public repo named `career-ops-showcase`, push this folder.
 2. Repo **Settings → Pages → Build and deployment → Deploy from a branch → `main` / root**.
-3. Your public URL: `https://surajn.github.io/career-ops-extensions/`
+3. Your public URL: `https://surajn.github.io/career-ops-showcase/`
 
 ## License
 My extensions: [MIT](LICENSE) © 2026 Suraj Natarajan. Base project career-ops: MIT ©
