@@ -13,6 +13,8 @@ least-privilege email design — **without forking it or breaking its upgrade pa
 > contains only my **extensions** on top of it, built by directing Claude Code. No
 > base-project code is redistributed here. See [ATTRIBUTION.md](ATTRIBUTION.md).
 
+[![The scan dashboard I built on top of career-ops](assets/demo.png)](https://surajn.github.io/career-ops-ext/demo.html)
+
 ## What's here
 | Path | What it is |
 |------|------------|
