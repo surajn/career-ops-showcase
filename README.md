@@ -23,7 +23,6 @@ least-privilege email design — **without forking it or breaking its upgrade pa
 | `output/dashboard/gen.mjs` | The real dashboard generator — a zero-dependency Node script that renders a scan-history TSV into a self-contained HTML page. |
 | `plugins/outlook-applied/` | The read-only Microsoft Graph email-check plugin (design + code; dormant). |
 | `data/scan-history.tsv` | The sanitized sample dataset (public postings only, no personal status). |
-| `writeups/` | LinkedIn post + interview talking points. |
 
 ## The engineering, in one paragraph
 Every extension lives in **career-ops's user-extension layer** — gitignored paths that
