@@ -7,3 +7,5 @@ data/role-status.json
 data/applied-index.json
 **/.token.json
 .env
+# personal prep notes — keep local, never publish
+writeups/
